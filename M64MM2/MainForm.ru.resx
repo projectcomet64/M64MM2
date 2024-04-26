@@ -128,7 +128,7 @@
     <value>246, 22</value>
   </data>
   <data name="extraControlsToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Допополнительные опции...</value>
+    <value>&amp;Дополнительные опции...</value>
   </data>
   <data name="showRunningPluginsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
@@ -176,7 +176,7 @@
     <value>303, 22</value>
   </data>
   <data name="aboutMenuItem.Text" xml:space="preserve">
-    <value>&amp;О M64MM3...</value>
+    <value>&amp;Об M64MM3...</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 20</value>
@@ -257,7 +257,7 @@
     <value>Автоприменение</value>
   </data>
   <data name="chbAutoApply.ToolTip" xml:space="preserve">
-    <value>Эта опция будет автоматически применять анимацию при выборе. Могут быть проблемы с некоторыми анимациями.</value>
+    <value>Эта опция будет автоматически применять анимацию при выборе. С некоторыми анимациями могут быть проблемы.</value>
   </data>
   <data name="btnAnimResetAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>377, 73</value>
