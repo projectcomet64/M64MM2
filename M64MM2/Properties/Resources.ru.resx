@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="colorCodeImportMsg" xml:space="preserve">
+    <value>Вставьте Ваш цветовой код ниже и нажмите "ок".</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="M64MM2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M64MM2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superg_m64mmsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\superg_m64mmsplash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M64MM2_New" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M64MM2 New.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M64MM2_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M64MM2 Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorCodeSPARKRom" xml:space="preserve">
+    <value>Заголовок этого ROM'а похож на модификацию для SPARK. На данный момент, тут не поддерживается SPARK, поэтому желательно скачать адд-он для SPARK'а на сайте: </value>
+  </data>
+  <data name="programStatusAwaitingLevel" xml:space="preserve">
+    <value>Статус: ожидание уровня. </value>
+  </data>
+  <data name="cameraDataNotLoaded" xml:space="preserve">
+    <value>Данные камеры не загружены!</value>
+  </data>
+  <data name="m64mm3_banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m64mm3_banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="programStatus3" xml:space="preserve">
+    <value>Статус: баз. адрес найден в </value>
+  </data>
+  <data name="invalidColorCodeMsg2" xml:space="preserve">
+    <value>Недействительный код: строка {0} пытается отредактировать адрес {1}, но в нём нет данных о цветах Марио. Убедитесь, что Вы используете цветовой код для американского региона!</value>
+  </data>
+  <data name="invalidColorCodeMsgShort" xml:space="preserve">
+    <value>короткая</value>
+  </data>
+  <data name="picturedInBannerMsg" xml:space="preserve">
+    <value>На баннере: </value>
+  </data>
+  <data name="colorCodeExportMsg" xml:space="preserve">
+    <value>Вот Ваш сгенерированный цветовой код:</value>
+  </data>
+  <data name="programStatus2" xml:space="preserve">
+    <value>Статус: баз. адрес не найден.</value>
+  </data>
+  <data name="m64mm_hero_devprev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m64mm_hero_devprev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CC_Mario_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M64MM2 CC Mario big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorCodeToFile" xml:space="preserve">
+    <value>В файл...</value>
+  </data>
+  <data name="colorCodeModdedRom" xml:space="preserve">
+    <value>Данные модели в этом ROM'е отличные от обычных данных модели Марио. Если Вы используете ROM X3S, измените "Поверх списка частей" на X3S чтобы использовать его.</value>
+  </data>
+  <data name="invalidColorCodeMsgLong" xml:space="preserve">
+    <value>длинная</value>
+  </data>
+  <data name="prereleaseString" xml:space="preserve">
+    <value>-alpha8.b1</value>
+  </data>
+  <data name="invalidAnimSelected" xml:space="preserve">
+    <value>Вы ввели недействительную анимацию в {0}. Выберите действительную анимацию из списка.</value>
+  </data>
+  <data name="m3_splash_dev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m3_splash_dev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="animDataNotLoaded" xml:space="preserve">
+    <value>Данные анимаций не загружены!</value>
+  </data>
+  <data name="invalidColorCodeMsgTitle" xml:space="preserve">
+    <value>Недействительный код</value>
+  </data>
+  <data name="cameraStateFrozen" xml:space="preserve">
+    <value>Камера: заморожена</value>
+  </data>
+  <data name="m3_splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m3_splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setDefaultColorsMsg" xml:space="preserve">
+    <value>Установить эти цвета по умолчанию?</value>
+  </data>
+  <data name="colorCodeErrorFileReading" xml:space="preserve">
+    <value>Не удалось прочитать код из файла.\n{0}</value>
+  </data>
+  <data name="setDefaultColorsMsgTitle" xml:space="preserve">
+    <value>Установить по умолчанию?</value>
+  </data>
+  <data name="picturedInBannerPeople" xml:space="preserve">
+    <value>Onewingdangl, Captainswag101, GlitchyPSI</value>
+  </data>
+  <data name="M64MM2_New_Icon_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M64MM2 New Icon 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorCodeErrorWriting" xml:space="preserve">
+    <value>Не удалось записать код в файл.\n{0}</value>
+  </data>
+  <data name="cameraStateDefault" xml:space="preserve">
+    <value>Камера: не заморожена</value>
+  </data>
+  <data name="m64mm_hero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m64mm_hero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="programStatus1" xml:space="preserve">
+    <value>Статус: Project64/Mupen не открыт.</value>
+  </data>
+  <data name="version3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version31.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cameraToggleSoftFrozen" xml:space="preserve">
+    <value>Лёгкая зам.: </value>
+  </data>
+  <data name="cameraToggleFrozen" xml:space="preserve">
+    <value>Заморозка: </value>
+  </data>
+  <data name="updateUpToDate" xml:space="preserve">
+    <value>(у Вас последняя версия!)</value>
+  </data>
+  <data name="updateLatestVersion" xml:space="preserve">
+    <value>Последняя версия: </value>
+  </data>
+  <data name="M64MM2_New_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M64MM2 New Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="updateUpdateNow" xml:space="preserve">
+    <value>(доступно обновление!)</value>
+  </data>
+  <data name="invalidColorCodeMsg1" xml:space="preserve">
+    <value>Недействительный код: строка {0} слишком {1}.</value>
+  </data>
+  <data name="colorCodeEmptyRom" xml:space="preserve">
+    <value>...Этот ROM не содержит данных модели. Цветовые коды и освещение будут работать только в ванильной модели и модах с их поддержкой.</value>
+  </data>
+  <data name="updateCurrentVersion" xml:space="preserve">
+    <value>Ваша версия: </value>
+  </data>
+  <data name="colorCodeFromFile" xml:space="preserve">
+    <value>Из файла...</value>
+  </data>
+  <data name="cameraStateSoftFrozen" xml:space="preserve">
+    <value>Камера: легко заморожена</value>
+  </data>
+  <data name="version3_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version3 big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="programName" xml:space="preserve">
+    <value>M64MM Classic</value>
+  </data>
+  <data name="webb_m64mmsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webb_m64mmsplash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discordInvite" xml:space="preserve">
+    <value>http://comet.glitchypsi.xyz</value>
+  </data>
+  <data name="version3_2big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version3_2big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updateNetworkError" xml:space="preserve">
+    <value>Что-то случилось. Не удалось открыть GitHub-страницу для обновлений. Проверьте Ваше соединение к сети.</value>
+  </data>
+  <data name="version32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powercamIngameDirtyMsg" xml:space="preserve">
+    <value>Вы запустили игру в уровне, где камера сломается с Powercam если эта опция там поначалу включена, поэтому Вы не можете её тут включить.
+Зайдите в уровень, в котором камера не отдаляется при паузе, и включите Powercam заново.</value>
+  </data>
+  <data name="powercamIngameDirtyTitle" xml:space="preserve">
+    <value>Есть время и место для всего, но не тут!</value>
+  </data>
+  <data name="powercamPregameDirtyMsg" xml:space="preserve">
+    <value>Вы запустили игру в уровне, где камера сломается с Powercam если эта опция там поначалу включена, поэтому мы выключили её для Вас.
+Зайдите в уровень, в котором камера не отдаляется при паузе, и включите Powercam заново.</value>
+  </data>
+  <data name="powercamPregameDirtyTitle" xml:space="preserve">
+    <value>Погодите, это важно!</value>
+  </data>
+  <data name="randomSlot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\randomSlot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inaccessibleEmuMsg" xml:space="preserve">
+    <value>M64MM не может получить доступ к эмулятору. Зачастую это происходит потому, что эмулятор запущен от имени администратора. Не нужно запускать эмулятор от имени администратора, от этого нет какого-либо пользы. Пожалуйста запустите эмулятор без прав администратора, чтобы использовать M64MM.</value>
+  </data>
+  <data name="incompatibleModelMsg" xml:space="preserve">
+    <value>Вы выбрали использовать части {0}, но этот ROM определён как {1}. Стабильность не гарантируется.</value>
+  </data>
+  <data name="programStatusInaccessible" xml:space="preserve">
+    <value>Статус: Не удалось открыть Project64/Mupen</value>
+  </data>
+  <data name="x3sMsg" xml:space="preserve">
+    <value>Оттенки X3s доступны только для модов с оттенками X3+, распространяемых Project Comet или другими связанными людьми. Смена оттенков не в X3S-ROM'е может повлечь за собой искажения, изменение не тех цветов, или же вообще ни к чему.</value>
+  </data>
+  <data name="peachGrassMsg" xml:space="preserve">
+    <value>Эта опция находится в раннем доступе. Она, возможно, «взорвётся», и, скорее всего, остановит игру если это делается не на Территории Замка. Вы были предупреждены.</value>
+  </data>
+</root>
