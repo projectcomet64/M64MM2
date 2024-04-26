@@ -219,6 +219,9 @@
     <EmbeddedResource Include="AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboutForm.ru.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AboutForm.zh-CN.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -229,6 +232,9 @@
       <DependentUpon>AddonErrors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AppearanceForm.resx">
+      <DependentUpon>AppearanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppearanceForm.ru.resx">
       <DependentUpon>AppearanceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AppearanceForm.zh-CN.resx">
@@ -243,6 +249,9 @@
     <EmbeddedResource Include="CopyPasteForm.resx">
       <DependentUpon>CopyPasteForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CopyPasteForm.ru.resx">
+      <DependentUpon>CopyPasteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CopyPasteForm.zh-CN.resx">
       <DependentUpon>CopyPasteForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -250,6 +259,9 @@
       <DependentUpon>EmuSelectorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmuSelectorForm.resx">
+      <DependentUpon>EmuSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmuSelectorForm.ru.resx">
       <DependentUpon>EmuSelectorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmuSelectorForm.zh-CN.resx">
@@ -261,6 +273,9 @@
     <EmbeddedResource Include="ExtraControlsForm.resx">
       <DependentUpon>ExtraControlsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ExtraControlsForm.ru.resx">
+      <DependentUpon>ExtraControlsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExtraControlsForm.zh-CN.resx">
       <DependentUpon>ExtraControlsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -268,6 +283,9 @@
       <DependentUpon>LatestUpdateDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LatestUpdateDialog.resx">
+      <DependentUpon>LatestUpdateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LatestUpdateDialog.ru.resx">
       <DependentUpon>LatestUpdateDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LatestUpdateDialog.zh-CN.resx">
@@ -280,6 +298,9 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.ru.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.zh-CN.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -307,6 +328,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Properties\Resources.ru.resx" />
     <EmbeddedResource Include="Properties\Resources.zh-CN.resx" />
     <EmbeddedResource Include="SettingsForm.es.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
@@ -314,6 +336,9 @@
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.ru.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsForm.zh-CN.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
@@ -326,6 +351,9 @@
       <DependentUpon>Taskman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Taskman.resx">
+      <DependentUpon>Taskman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taskman.ru.resx">
       <DependentUpon>Taskman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Taskman.zh-CN.resx">
@@ -352,6 +380,7 @@
     <Content Include="animation_data.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="animation_data_ru.txt" />
     <Content Include="animation_data_zhCN.txt" />
     <Content Include="camera_data.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -360,6 +389,7 @@
     <None Include="Resources\version3_2big.png" />
     <None Include="Resources\webb_m64mmsplash.png" />
     <None Include="Resources\m3_splash_dev.png" />
+    <Content Include="camera_data_ru.txt" />
     <Content Include="camera_data_zhCN.txt" />
     <Content Include="Resources\M64MM2 New Icon 2 small.png" />
     <Content Include="Resources\M64MM2 New Icon 2.png" />
