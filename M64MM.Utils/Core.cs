@@ -910,11 +910,9 @@ namespace M64MM.Utils
         public static List<Animation> GetQueriedAnimations(string query = "")
         {
             Regex mRegex = new Regex($"/({query})/g");
-            List<Animation> l = animList.Select(x => {
-                    x.Description = x.Description.ToLowerInvariant(); return x;
-            }).Where(a => a.Description.ToLowerInvariant().Contains(query))
-                .OrderBy(x => mRegex.Matches(x.Description.ToLowerInvariant()).Count).ToList();
-            if (l.Count < 1) l = animList.ToList(); //BAHAHAHAHAHAHAHAHA
+            List<Animation> l = animList.Where(a => a.Description.ToLowerInvariant().Contains(query.ToLowerInvariant()))
+                .OrderBy(anim => anim.RealIndex).ToList();
+            if (l.Count < 1) l = animList; // no results from query, return whole list instead
             return l;
         }
 
