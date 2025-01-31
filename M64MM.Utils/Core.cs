@@ -40,6 +40,7 @@ namespace M64MM.Utils
         static bool _cameraSoftFrozen = false;
         private static Lightset _currentLightset;
 
+        public static CultureInfo currentCulture = CultureInfo.CurrentCulture;
 
         public static Lightset CurrentLightset {
             get => _currentLightset;
@@ -401,11 +402,53 @@ namespace M64MM.Utils
             WriteBytes(address, stuffToWrite);
         }
 
+        public static string GetFileWithCulture(string fileName, string fileFormat)
+        {
+            string argDataName;
+            string currentCultureName = currentCulture.Name.ToString();
+            string currentCultureNameNoRegion;
+            if (currentCultureName.IndexOf("-") >= 0)
+            {
+                currentCultureNameNoRegion = currentCultureName.Substring(0, currentCultureName.IndexOf("-"));
+                // Removing every character after “-” incluse so that "ru-RU" or "ru-UA" become just "ru" for example
+                // This is used in case there is no translation for a specific region of a language
+            }
+            else
+            {
+                currentCultureNameNoRegion = currentCultureName;
+            }
+
+            if (File.Exists($"{Application.StartupPath}/{fileName}_{currentCultureName}.{fileFormat}") && currentCultureName.Contains("-"))
+            {
+                argDataName = $"{fileName}_{currentCultureName}.{fileFormat}";
+            }
+            else if (File.Exists($"{Application.StartupPath}/{fileName}_{currentCultureNameNoRegion}.{fileFormat}"))
+            {
+                argDataName = $"{fileName}_{currentCultureNameNoRegion}.{fileFormat}";
+            }
+            else
+            {
+                argDataName = $"{fileName}.{fileFormat}";
+            }
+            return argDataName;
+            // Basically, first try finding if a translation of a specific language for the region exists
+            // If there is no translation for that specific region, then try searching for a translation of the normal version of the language
+            // If there is no translation even for that, then just use the normal English version
+            //
+            // Example #1: my (DanilAstroid's) culture is ru-UA, which is the Ukrainian version of Russian
+            // Firstly, we try finding a specific translation for Ukrainian Russian
+            // There is no Ukrainian Russian translation (at least as of me writing this lol), so we try finding just the normal Russian translation
+            // Since there is indeed a normal Russian translation for the animation_data.txt and camera_data.txt files, we manage to find that
+            // So, we set the animation data to be this file
+            // If there was no Russian translation, then we would end up using the normal animation_data.txt and camera_data.txt files
+        }
+
         public static bool LoadAnimationData()
         {
             try
             {
-                using (StreamReader sr = new StreamReader($"{Application.StartupPath}/animation_data.txt"))
+                string animDataName = GetFileWithCulture("animation_data", "txt");
+                using (StreamReader sr = new StreamReader($"{Application.StartupPath}/{animDataName}"))
                 {
                     while (!sr.EndOfStream && sr.Peek() != 0)
                     {
@@ -483,7 +526,8 @@ namespace M64MM.Utils
         {
             try
             {
-                using (StreamReader sr = new StreamReader($"{Application.StartupPath}/camera_data.txt"))
+                string camDataName = GetFileWithCulture("camera_data", "txt");
+                using (StreamReader sr = new StreamReader($"{Application.StartupPath}/{camDataName}"))
                 {
                     while (sr.Peek() >= 0)
                     {
